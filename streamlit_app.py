@@ -270,10 +270,14 @@ st.plotly_chart(fig_line)
 st.divider()
 
 st.title("Capítulo 4: Built different. ")
+# Comparar despesas de time vs outras operadoras. Isso dá pra puxar via DRE (slide 8 ou 9, se não me engano da ANS)
+# Insight aqui é que enquanto outras operadoras são "financeiras" com rede credenciada, a Alice e Sami se comportam como empresas de tech que operam no setor de saúde
+# Dúvida: até quando esses investimentos em time/produto vão ser necessários? Alguma hora a chave vira? 
 
 st.divider()
 
 st.title("Capítulo 5: Quem quer rir tem que fazer rir…")
+# Despesas de comercialização (corretagem, incentivos tbem dá pra puxar via DRE) significativamente maiores que outras operadoras
 
 st.divider()
 
