@@ -329,7 +329,7 @@ def get_claims():
 def get_revenue_comparison():
     bar_data = pd.DataFrame(
         {
-            "Ano": [2020, 2020, 2021, 2021, 2022, 2022, 2023, 2022, 2024, 2024],
+            "Ano": [2020, 2020, 2021, 2021, 2022, 2022, 2023, 2023, 2024, 2024],
             "Operadora": [
                 "Sami",
                 "Alice",

@@ -11,13 +11,14 @@ def sidebar():
 
 def urls_style():
     st.markdown(
-    """
-    <style>
-        a {
-            color: inherit !important;
-            text-decoration: none;
-        }
-    </style>
-    """,
+        """
+        <style>
+            a {
+                color: inherit !important;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        </style>
+        """,
         unsafe_allow_html=True,
     )

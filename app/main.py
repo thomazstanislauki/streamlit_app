@@ -165,17 +165,12 @@ fig_bar = px.bar(
     x="Ano",
     y="Receita em R$ milhões",
     color="Operadora",
+    text="Receita em R$ milhões",
     title="Receita acumulada até último período de cada ano",
     barmode="group",
 )
 
-for i in range(len(revenue_comparison)):
-    fig_bar.add_annotation(
-        x=revenue_comparison["Ano"][i],
-        y=revenue_comparison["Receita em R$ milhões"][i],
-        text=f"{revenue_comparison['Receita em R$ milhões'][i]}",
-        showarrow=False,
-        yshift=10,
-    )
+fig_bar.update_traces(textposition="outside", texttemplate="%{text:.1f}")
+fig_bar.update_layout(uniformtext_minsize=8, uniformtext_mode='hide')
 
 st.plotly_chart(fig_bar, config={"responsive": True})
