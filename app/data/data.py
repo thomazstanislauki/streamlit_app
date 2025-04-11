@@ -37,8 +37,8 @@ def get_beneficiaries():
                 26.1,
                 27.2,
                 31.0,
-                34.7,
-                40,
+                34.5,
+                41.5,
             ],
             "Sami": [
                 0.8,
@@ -56,7 +56,7 @@ def get_beneficiaries():
                 21.3,
                 21.6,
                 20.7,
-                0,
+                20.0,
             ],
         }
     )
@@ -75,22 +75,22 @@ def get_revenue():
         [
             {
                 "Nome Coluna": "Sami",
-                "Beneficiários": "20.781",
-                "Receita 2024": "R$ 84.794.661",
+                "Beneficiários": "20.052",
+                "Receita 2024": "R$ 114.116.131",
             },
             {
                 "Nome Coluna": "Alice",
-                "Beneficiários": "34.741",
-                "Receita 2024": "R$ 257.107.166",
+                "Beneficiários": "41.563",
+                "Receita 2024": "R$ 360.869.927",
             },
             {
                 "Nome Coluna": "Mercado Total",
-                "Beneficiários": "50.691.591",
-                "Receita 2024": "R$ 261.340.143.528",
+                "Beneficiários": "50.267.895",
+                "Receita 2024": "R$ 350.145.183.010",
             },
             {
                 "Nome Coluna": "Alice + Sami vs Total",
-                "Beneficiários": "0.10%",
+                "Beneficiários": "0.12%",
                 "Receita 2024": "0.13%",
             },
         ]
@@ -141,12 +141,12 @@ def get_market_trends():
                 12.2,
                 14.0,
                 # 2024
-                168.6,
-                28.7,
-                23.2,
-                19.9,
-                10.3,
-                10.6,
+                224.9,
+                38.3,
+                31.5,
+                26.6,
+                14.5,
+                14.3,
             ],
         }
     )
@@ -174,8 +174,8 @@ def get_startup_revenue():
                 219.3,
                 83.7,
                 # 2024
-                257.1,
-                84.8,
+                360.8,
+                114.1,
             ],
         }
     )
@@ -316,8 +316,8 @@ def get_claims():
                 77.3,
                 85.4,
                 # 2024
-                85.3,
-                92.1,
+                83.8,
+                92.0,
                 79.5,
                 83.1,
             ],
@@ -329,18 +329,20 @@ def get_claims():
 def get_revenue_comparison():
     bar_data = pd.DataFrame(
         {
-            "Ano": [2020, 2020, 2021, 2021, 2024, 2022, 2023, 2024],
+            "Ano": [2020, 2020, 2021, 2021, 2022, 2022, 2023, 2022, 2024, 2024],
             "Operadora": [
                 "Sami",
                 "Alice",
                 "Sami",
+                "Alice",
                 "Sami",
+                "Alice",
                 "Sami",
                 "Alice",
-                "Alice",
-                "Alice",
+                "Sami",
+                "Alice"
             ],
-            "Receita em R$ milhões": [1.4, 0.0, 22.0, 10.6, 257.1, 74.3, 219.3, 84.8],
+            "Receita em R$ milhões": [0.0, 1.4, 10.6, 22.0, 70.9, 74.3, 83.7, 219.3, 114.16, 360.8] 
         }
     )
     return bar_data
