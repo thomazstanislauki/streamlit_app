@@ -1,4 +1,3 @@
-# main.py
 import plotly.express as px
 import streamlit as st
 import pandas as pd
@@ -7,6 +6,8 @@ import app.data.data as data
 import app.utils.utils as utils
 
 # st.image('/Users/thomazhenrique/Downloads/pether_thiel.png', width=620)
+
+st.set_page_config(page_title='Relatório ANS')
 
 utils.urls_style()
 utils.sidebar()
