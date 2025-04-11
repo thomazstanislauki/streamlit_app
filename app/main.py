@@ -4,8 +4,12 @@ import streamlit as st
 import pandas as pd
 import app.utils.texts as text
 import app.data.data as data
+import app.utils.utils as utils
 
 # st.image('/Users/thomazhenrique/Downloads/pether_thiel.png', width=620)
+
+utils.urls_style()
+utils.sidebar()
 
 text.intro()
 

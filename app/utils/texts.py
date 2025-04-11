@@ -7,8 +7,10 @@ def intro():
         """
         Li o [último relatório econômico-financeiro da ANS](https://www.gov.br/ans/pt-br/assuntos/noticias/numeros-do-setor/ans-divulga-dados-economico-financeiros-relativos-ao-3o-trimestre-de-2024)
         sobre seguradoras de saúde para você não precisar ler. 
-        <br><br> Antecipando: se você já é do mercado, não espere nenhuma análise genial sobre o mercado. 
-        <br><br> Meu objetivo é trazer luz para dados que vão além de headlines de PR e trazer ao mundo a reflexão que os dados me geraram
+
+        Antecipando: se você já é do mercado, não espere nenhuma análise genial sobre o mercado. 
+        
+        Meu objetivo é trazer luz para dados que vão além de headlines de PR e trazer ao mundo a reflexão que os dados me geraram
         sobre o poder da coragem e [delusional self belief](https://blog.samaltman.com/how-to-be-successful) para mover o mundo para frente.
         """,
         unsafe_allow_html=True,
@@ -22,10 +24,12 @@ def chapter_1(section):
         st.markdown(
             """
             Fundada em 2020, Alice alcançou a marca de 10k membros em 1Q23 ainda no modelo B2C.
-            <br><br> Em 2Q23, [**compra carteira da QSaúde**](https://alice.com.br/blog/imprensa/alice-compra-carteira-clientes-qsaude/),
+            
+            Em 2Q23, [**compra carteira da QSaúde**](https://alice.com.br/blog/imprensa/alice-compra-carteira-clientes-qsaude/),
             pivota para B2B e mais que dobra 'na marra' o número de membros: ~10k para ~27k. Um ano e meio depois, a empresa cresceu
             ~50% e finalizou 2024, segundo Gui Azevedo (founder) com [40k membros.](https://www.linkedin.com/posts/guilherme-gui-azevedo-14807730_retrospectiva-2024-spotify-na-alice-activity-7282775874171531264-q6ox?utm_source=share&utm_medium=member_desktop)
-            <br><br>Vale destacar que esse dado foi divulgado pela própria empresa. O último dado publicado pela ANS no dia de produção desse artigo é de 3Q24: 34.7k.
+            
+            Vale destacar que esse dado foi divulgado pela própria empresa. O último dado publicado pela ANS no dia de produção desse artigo é de 3Q24: 34.7k.
             """,
             unsafe_allow_html=True,
         )
@@ -36,7 +40,8 @@ def chapter_1(section):
             Em 2022 mais que dobra e finaliza o ano com 15k beneficiários. O ritmo desacelerou significativamente em 
             2023 e 2024. Em 2023, a empresa cresceu 30%, terminando o ano com 21k beneficiários. 2024 tem sido ainda 
             mais difícil — encolheu em ~300 segurados se comparado ao início do ano.
-            <br><br> Na data de produção deste artigo ainda não foram divulgados dados de 4Q24.
+            
+            Na data de produção deste artigo ainda não foram divulgados dados de 4Q24.
             """,
             unsafe_allow_html=True,
         )
@@ -50,14 +55,18 @@ def chapter_1(section):
         st.markdown(
             """
             Por um lado, o mercado prova-se grande o suficiente para acomodar billion dollar-businesses.
-            <br><br> Por outro, são 4 anos de estrada, +230 milhões de dólares captados e nem a superfície parece ter sido atingida.
+            
+            Por outro, são 4 anos de estrada, +230 milhões de dólares captados e nem a superfície parece ter sido atingida.
             A ambição de ambas startups parece ser de gerar mudanças sistêmicas na saúde brasileira. 
-            <br><br> Ao colocar a penetração em perspectiva, me questiono o quão longe estamos de mudanças tectônicas. 
+            
+            Ao colocar a penetração em perspectiva, me questiono o quão longe estamos de mudanças tectônicas. 
             É preciso mais 5/10 anos ou 20/30 anos? Mais \$50 milhões ou \$500 milhões? Alta dependência dos órgãos 
             reguladores para acelerar a evolução do sistema?
-            <br><br> A clareza de quão longe estamos de mudanças substanciais em termos de tempo, regulação e investimento é 
+            
+            A clareza de quão longe estamos de mudanças substanciais em termos de tempo, regulação e investimento é 
             essencial para tirar qualquer conclusão sobre qual será a magnitude do impacto dessas startups.
-            <br><br> Elas serão os heróis que iniciam o movimento e morrem antes de vê-lo tomando proporções sem precedentes ou 
+            
+            Elas serão os heróis que iniciam o movimento e morrem antes de vê-lo tomando proporções sem precedentes ou 
             conseguirão 'endure for long enough' para criar e surfar a própria tailwind?
             """,
             unsafe_allow_html=True,
@@ -70,8 +79,11 @@ def chapter_2(section):
         st.markdown(
             """
             Independente de opinião, fato é que Sami e Alice tem 'mercado infinito' pela frente. Então, quão rápido elas estão
-            capturando demanda? <br><br> Spoiler: é muito mais rápido que o mercado e pares. Mesmo assim, é rapido suficiente?
-            <br><br> É isso que esse capítulo quer responder.
+            capturando demanda?
+            
+            Spoiler: é muito mais rápido que o mercado e pares. Mesmo assim, é rapido suficiente?
+            
+            É isso que esse capítulo quer responder.
             """,
             unsafe_allow_html=True,
         )
@@ -79,9 +91,11 @@ def chapter_2(section):
         st.subheader("Setting the baseline...")
         st.markdown(
             """
-            - Zoom out: entre 2020 e 2023 o mercado de saúde suplementar cresceu 30%. <br><br>
+            - Zoom out: entre 2020 e 2023 o mercado de saúde suplementar cresceu 30%.
+            
             - Zoom in: 2023 foi o melhor ano desde pandemia — 17% de crescimento. Se mantivermos a sazonalidade do 
-            último ano nesse 4Q, números indicam crescimento superior a 10%, segunda melhor porformance desde 2020. <br><br>
+            último ano nesse 4Q, números indicam crescimento superior a 10%, segunda melhor porformance desde 2020.
+            
             - Titãs: desde 2020, um terço do mercado está nas mãos das top 5 seguradoras. A Hapvida é a operadora que mais
             cresceu nesse intervalo: +95%. Destaque de 2024 é a Amil que nos três primeiros trimestres já atingiu ~93% da
             receita de 2023 vs ~80% das outras quatro. Se seguir nesse velocidade, a Amil deve crescer +20% nesse ano.
